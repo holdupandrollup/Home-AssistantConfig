@@ -60,3 +60,5 @@ tts:
 
 group: !include groups.yaml
 automation: !include automations.yaml
+camera: !include cameras.yaml
+

@@ -1,0 +1,12 @@
+  - platform: mjpeg
+    mjpeg_url: http://192.168.1.126/video2.mjpg
+    username: !secret camera_username
+    password: !secret camera_password
+    name: Labratory
+  
+  - platform: mjpeg
+    mjpeg_url: http://192.168.1.132/video2.mjpg
+    username: !secret camera_username
+    password: !secret camera_password
+    name: Living Room
+    

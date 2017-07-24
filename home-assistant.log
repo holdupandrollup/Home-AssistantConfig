@@ -1,1 +1,904 @@
-2017-07-24 04:09:55 WARNING (Recorder) [homeassistant.components.recorder] Ended unfinished session (id=3 from 2017-07-24 03:41:50.817985)
+2017-07-24 05:46:14 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:14 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:17 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:24 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:24 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:35 WARNING (Thread-6) [netdisco.ssdp] Found malformed XML at http://192.168.1.2:40001: status=ok
+2017-07-24 05:46:35 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:35 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:45 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:45 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:55 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:46:55 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:05 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:05 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:14 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:14 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:25 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:25 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:35 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:35 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:45 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:45 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:55 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:47:55 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:05 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:05 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:15 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:15 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:25 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:26 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:35 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:35 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:45 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:45 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:55 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:48:55 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:05 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:05 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:15 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:15 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:25 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:25 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:35 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:35 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:45 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:45 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:55 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:49:55 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:05 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:05 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:15 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:15 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:25 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:25 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:35 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:35 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:45 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:45 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:55 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:50:55 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:04 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:04 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:14 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:14 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:24 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:24 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:34 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:34 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:44 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:44 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:54 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:51:54 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:04 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:04 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:15 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:15 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:25 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:25 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:35 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:35 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:45 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:45 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:55 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:52:55 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:05 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:05 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:15 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:15 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:25 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:25 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:35 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:35 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:45 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:45 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:55 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:53:55 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:05 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:05 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:15 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:15 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:25 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:25 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:35 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:35 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:45 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:45 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:55 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:54:55 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:05 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:05 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:15 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:15 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:25 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:25 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:35 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:35 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:45 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:45 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:55 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:55:55 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:05 WARNING (Thread-8) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:05 WARNING (Thread-3) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:15 WARNING (Thread-4) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:15 WARNING (Thread-5) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:25 WARNING (Thread-7) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:25 WARNING (Thread-11) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:35 WARNING (Thread-6) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:35 WARNING (Thread-10) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:45 WARNING (Thread-1) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.126:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+2017-07-24 05:56:45 WARNING (Thread-9) [requests.packages.urllib3.connectionpool] Failed to parse headers (url=http://192.168.1.132:80/video2.mjpg): [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
+Traceback (most recent call last):
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/connectionpool.py", line 398, in _make_request
+    assert_header_parsing(httplib_response.msg)
+  File "/srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/requests/packages/urllib3/util/response.py", line 66, in assert_header_parsing
+    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
+requests.packages.urllib3.exceptions.HeaderParsingError: [StartBoundaryNotFoundDefect(), MultipartInvariantViolationDefect()], unparsed data: ''
